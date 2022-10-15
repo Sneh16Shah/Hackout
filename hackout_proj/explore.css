@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
+:root{
+    --primary: #ffb32c;
+    --primary-variant: #F17C1C;
+    --text: #000;
+    --text-variant: #fff;
+    --highlight: #8EE619;
+    --background-dark: #2d3548;
+    --text-light: rgba(255,255,255,0.6);
+    --text-lighter: rgba(255,255,255,0.9);
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+    --width-container: 1200px;
+  }
+nav {
+    background: var(--text-variant);
+    color: var(--primary-variant);
+    z-index: 1;
+}
+
+.navbar {
+    /* padding: 0 0 4.5rem;  */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #e6198e;
+}
+
+.navlink-border:hover {
+    border-bottom: 2px solid var(--primary-variant);
+}
+
+.nav-link {
+    font-size: 1.5 rem;
+    font-weight: normal;
+    color: var(--primary-variant);
+}
+
+.navbar-toggler i {
+    color: #e6198e;
+}
+
+.navbar-brand:hover,
+.nav-link:hover,
+.navbar-toggler i:hover {
+    color: #e6198e;
+}
+
+a.nav-link.px-4 {
+    margin-top: 20px;
+}
+
+.login-btn {
+    color: var(--text-variant);
+    background-image: linear-gradient(134deg, #e6198e, #e6198e, var(--primary-variant));
+    border-radius: 30px;
+    padding: 10px 45px;
+    margin-top: -10px;
+}
+
+.login-btn:hover {
+    color: var(--text-variant);
+    background-image: linear-gradient(134deg, var(--primary-variant), #e6198e, #e6198e);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    padding: 10px 45px;
+}
+
+.main{
+    height: 600px;
+    background-color: #eaeaea;
+    display: grid;
+  justify-content: center;
+  align-items: center;
+}
+  
+
+
+.container {
+  max-width: 900px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.card-wrapper {
+  width: 400px;
+  height: 500px;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  height: 450px;
+  transform: translate(-50%, -50%);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  transition: 0.5s;
+}
+  .card-image {
+    height: 100%;
+    width:auto;
+    z-index: 2;
+    background-color: #000;
+    transition: .5s;
+    
+  }
+  
+  .card:hover img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    transition: .5s;
+  }
+
+
+.card:hover .card-image {
+    height: 100%;
+      width: 100%;
+  transform: translateY(-100px);
+  transition: all .9s;
+}
+
+
+/**** Personal Details ****/
+
+.details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  height: 120px;
+  z-index: 1;
+  padding: 10px;
+}
+  h2 {
+    margin: 30px 0;
+    padding: 0;
+    text-align: center;
+  }
+    .job-title {
+        font-size: 1rem;
+        line-height: 2.5rem;
+        color: #333;
+        font-weight: 300;
+    }
+
+
+
+footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+    background-color: #e6198e;
+}
+
+footer h1:hover {
+    color: var(--text-variant);
+}
+
+#back-to-top:hover {
+    color: var(--text-variant);
+}
+
+footer p {
+    color: #F5F5F5;
+}
+
+footer a {
+    color: #F5F5F5;
+}
+
+footer a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 990px) {
+    footer {
+        text-align: center;
+    }
+}
