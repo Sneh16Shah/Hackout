@@ -1,0 +1,148 @@
+* { 
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+    font-familly : "Poppins", sans-serif;
+  }
+
+  :root {
+    --primary: #ffb32c;
+    --primary-variant: #F17C1C;
+    --text: #000;
+    --text-variant: #fff;
+    --highlight: #8EE619;
+}
+  body {
+    /* display : flex; */
+    align-items : center;
+    justify-content : center;  
+    background-color: white;
+    min-height : 800px;
+  }
+
+  nav {
+    background: var(--text-variant);
+    color: var(--primary-variant);
+    z-index: 1;
+}
+
+.navbar {
+    /* padding: 0 0 4.5rem;  */
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #e6198e;
+}
+
+.navlink-border:hover {
+    border-bottom: 2px solid var(--primary-variant);
+}
+
+.nav-link {
+    font-size: 1 rem;
+    font-weight: normal;
+    color: var(--primary-variant);
+}
+
+.navbar-toggler i {
+    color: #e6198e;
+}
+
+.navbar-brand:hover,
+.nav-link:hover,
+.navbar-toggler i:hover {
+    color: #e6198e;
+}
+
+
+
+a.nav-link.px-4 {
+    margin-top: 20px;
+}
+
+.login-btn {
+    color: var(--text-variant);
+    background-image: linear-gradient(134deg, #e6198e, #e6198e, var(--primary-variant));
+    border-radius: 30px;
+    padding: 10px 45px;
+    margin-top: -10px;
+}
+
+.login-btn:hover {
+    color: var(--text-variant);
+    background-image: linear-gradient(134deg, var(--primary-variant), #e6198e, #e6198e);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    padding: 10px 45px;
+}
+  
+  .container {
+    position : relative;
+    width : 1100px;
+    display : flex;
+    /* align-items : center; */
+    /* justify-content : center; */
+    flex-wrap : wrap;
+    /* padding : 0px;   */
+  }
+  
+  .container .card {
+    position: relative;
+    max-width : 220px;
+    height : 215px;  
+    background-color : #fff;
+    margin : 30px 20px;
+    padding : 20px 15px;
+    
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .container .card:hover {
+    height : 300px;    
+  }
+  
+  
+  .container .card .image {
+    position : relative;
+    width : 200px;
+    height : 260px;
+    
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+  }
+  
+  .container .card .image img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+  .container .card .content {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+  
+  .container .card:hover .content {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
