@@ -33,3 +33,10 @@ function search_company(){
     window.location = url;
     window.open(url);
 }
+function search_company_questions(){
+    var company_q = document.getElementById('company_que').value;
+    var url2 = "https://practice.geeksforgeeks.org/explore?page=1&company[]="+ company_q[0].toUpperCase()+company_q.substring(1).toLowerCase()+"&sortBy=submissions";
+    console.log(url2);
+    window.location = url2;
+    window.open(url2);
+}

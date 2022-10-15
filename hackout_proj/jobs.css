@@ -106,7 +106,7 @@ body{
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #9DBFAF;
-  text-align: end;
+  text-align: start;
 }
 
 
@@ -139,6 +139,20 @@ body{
   width: 30%;
   position: absolute;
   top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.wrap3{
+  width: 30%;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.wrap4{
+  width: 30%;
+  position: absolute;
+  top: 70%;
   left: 20%;
   transform: translate(-50%, -50%);
 }

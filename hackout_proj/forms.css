@@ -14,6 +14,7 @@ body {
   /* background-color: #9900EF; */
 
 }
+
 h4 {
   color: #f0a500;
 }
@@ -216,9 +217,24 @@ box-shadow: 16px 16px 6px 5px rgb(141, 9, 155);
 .col-third:last-of-type {
   padding-right: 0;
 }
+.btn{
+  margin: 5px;
+  position: absolute;
+  color: whitesmoke;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.button_form{
+  display: flex;
+}
+
 @media only screen and (max-width: 540px) {
   .col-half {
     width: 100%;
     padding-right: 0;
   }
 }
+
