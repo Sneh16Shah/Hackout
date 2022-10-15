@@ -1,2 +1,2 @@
 # Hackout
-##CollegeBuddy
+## CollegeBuddy
