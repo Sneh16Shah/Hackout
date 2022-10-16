@@ -29,7 +29,7 @@
                 <a class="nav-link px-4" href="index.php">Home</a>
             </li>
             <li class="nav-item navlink-border">
-                <a class="nav-link px-4" href="academic.php">Academics</a>
+                <a class="nav-link px-4" href="demo.php">Academics</a>
             </li>
             <li class="nav-item navlink-border">
                 <!-- <a class="nav-link px-4" href="jobs.php">Jobs</a> -->
@@ -115,7 +115,7 @@
           </div>
           <div class="col-third">
             <div class="input-group input-group-icon">
-              <input type="email" name="email" placeholder="Email Address"/>
+              <input type="email" name="name" placeholder="Email Address"/>
               <div class="input-icon"><i class="fa fa-envelope"></i></div>
             </div>
           </div>
@@ -135,7 +135,7 @@
             </div>
           </div>
           <div>
-          <button type="submit" class="btn btn-warning btn">Submit</button>
+          <button type="button">Submit</button>
           </div>
         </form>
       </div>

@@ -23,7 +23,7 @@
 
 
 
-    <nav id="go-to-top" class="navbar navbar-expand-lg selectDisable">
+<nav id="go-to-top" class="navbar navbar-expand-lg selectDisable">
         <a class="navbar-brand" href="index.html">
             CollegeBuddy
         </a>
@@ -34,19 +34,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item navlink-border">
-                    <a class="nav-link px-4" href="index.html">Home</a>
+                    <a class="nav-link px-4" href="index.php">Home</a>
                 </li>
                 <li class="nav-item navlink-border">
-                    <a class="nav-link px-4" href="about.html">Abouts</a>
+                    <a class="nav-link px-4" href="academic.php">Academics</a>
                 </li>
                 <li class="nav-item navlink-border">
-                    <a class="nav-link px-4" href="#">Academics</a>
+                    <!-- <a class="nav-link px-4" href="jobs.html">Jobs</a> -->
+                    <div class="dropdown">
+                        <button class="dropbtn">Jobs</button>
+                        <div class="dropdown-content">
+                            <a href="job.php">Post a job</a>
+                            <a href="chk.php">View jobs</a>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item navlink-border">
-                    <a class="nav-link px-4" href="jobs.html ">Jobs</a>
+                    <a class="nav-link px-4" href="about.php">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4" href="login.html"><button class="btn login-btn">Login</button></a>
+                    <a class="nav-link px-4" href="login.php"><button class="btn1 login-btn">Login</button></a>
                 </li>
             </ul>
         </div>
@@ -57,7 +64,7 @@
             <div class="row">
                 <div class="col">
                     <div class="search">
-                        <input type="text" class="searchTerm" id="company" placeholder="Company">
+                        <input type="text" class="searchTerm" id="company" placeholder="Company (Eg.-Google)">
                         <button type="submit" class="searchButton" onclick="search_company()">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
@@ -69,7 +76,7 @@
             <div class="row">
                 <div class="col">
                     <div class="search">
-                        <h3 class="txt 1">Search Interview Experience</h3>
+                        <h3 class="txt 1"> Interview Experiences</h3>
 
                     </div>
                 </div>
@@ -79,7 +86,7 @@
             <div class="row">
                 <div class="col">
                     <div class="search">
-                        <input type="text" class="searchTerm" id="company_que" placeholder="Company">
+                        <input type="text" class="searchTerm" id="company_que" placeholder="Company (Eg.- Google)">
                         <button type="submit" class="searchButton" onclick="search_company_questions()">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
@@ -92,6 +99,51 @@
                 <div class="col">
                     <div class="search">
                         <h3 class="txt 1">Company Questions Archives</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrap5">
+            <div class="row">
+                <div class="col">
+                    <div class="search">
+                        <input type="text" class="searchTerm" id="dsa_que" placeholder="DSA Topic (Eg.-Arrays)">
+                        <button type="submit" class="searchButton" onclick="questions()">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap6">
+            <div class="row">
+                <div class="col">
+                    <div class="search">
+                        <h3 class="txt 1">Topic wise DSA Practice</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap7">
+            <div class="row">
+                <div class="col">
+                    <div class="search">
+                        <input type="text" class="searchTerm" id="i_que" placeholder="Technology (Eg.-Cpp)">
+                        <button type="submit" class="searchButton" onclick="i_questions()">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap8">
+            <div class="row">
+                <div class="col">
+                    <div class="search">
+                        <h3 class="txt 1">Technology-wise questions</h3>
 
                     </div>
                 </div>

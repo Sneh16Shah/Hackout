@@ -1,0 +1,28 @@
+.sgp{
+    background-color: #dcc8d8;
+     /* display: inline-block; */
+    /* align-items: center; */
+    justify-content: center;
+    border: 2px solid black;
+    /* height: 300px; */
+    /* width: 450px; */
+    /* float: left; */
+    /* display: flex; */
+    /* position: relative; */
+    margin: 10px;
+    margin-right: 400px;
+    margin-left: 400px;
+    border-radius: 20px; 
+    box-shadow: 200px 2 2 2 black;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* text-align: center; */
+    padding: 20px;
+    padding-left: 50px;
+}
+span{
+    color: blue;
+    float: left;
+    font-family: cursive;
+     
+}

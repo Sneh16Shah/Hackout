@@ -40,3 +40,17 @@ function search_company_questions(){
     window.location = url2;
     window.open(url2);
 }
+function questions(){
+    var company_q = document.getElementById('dsa_que').value;
+    var url2 = "https://practice.geeksforgeeks.org/explore?page=1&category[]="+ company_q[0].toUpperCase()+company_q.substring(1).toLowerCase()+"&sortBy=submissions";
+    console.log(url2);
+    window.location = url2;
+    window.open(url2);
+}
+function i_questions(){
+    var company_q = document.getElementById('i_que').value;
+    var url2 = "https://www.interviewbit.com/"+ company_q.toLowerCase()+"-interview-questions/";
+    console.log(url2);
+    window.location = url2;
+    window.open(url2);
+}

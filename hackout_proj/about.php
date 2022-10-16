@@ -24,19 +24,26 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item navlink-border">
-                <a class="nav-link px-4" href="index.html">Home</a>
+                <a class="nav-link px-4" href="index.php">Home</a>
             </li>
             <li class="nav-item navlink-border">
-                <a class="nav-link px-4" href="about.html">Abouts</a>
+                <a class="nav-link px-4" href="academic.php">Academics</a>
             </li>
             <li class="nav-item navlink-border">
-                <a class="nav-link px-4" href="#">Academics</a>
+                <!-- <a class="nav-link px-4" href="jobs.html">Jobs</a> -->
+                <div class="dropdown">
+                    <button class="dropbtn">Jobs</button>
+                    <div class="dropdown-content">
+                        <a href="job.php">Post a job</a>
+                        <a href="chk.php">View jobs</a>
+                    </div>
+                </div>
             </li>
             <li class="nav-item navlink-border">
-                <a class="nav-link px-4" href="jobs.html">Jobs</a>
+                <a class="nav-link px-4" href="about.php">About us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link px-4" href="login.html"><button class="btn login-btn">Login</button></a>
+                <a class="nav-link px-4" href="login.php"><button class="btn1 login-btn">Login</button></a>
             </li>
         </ul>
     </div>
@@ -48,7 +55,7 @@
 
       <div class = card>
         <div class = image>
-          <img href = "#" src ="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg">
+          <img href = "#" src ="sristi.jpeg">
         </div>
         <div class = content>
           <h3>Sristi Shah</h3>
@@ -57,7 +64,7 @@
       </div>    
       <div class = card>
         <div class = image>
-          <img href = "#" src ="https://t4.ftcdn.net/jpg/04/64/21/59/360_F_464215993_LWZKZ52fQKt4YDQ43b50koqZgn9WxHzA.jpg">
+          <img href = "#" src ="sneh.jpeg" height="200px" width="200px">
         </div>
         <div class = content>
           <h3>Sneh Shah</h3>
@@ -66,20 +73,20 @@
       </div>    
       <div class = card>
         <div class = image>
-          <img href = "#" src ="https://t4.ftcdn.net/jpg/04/64/21/59/360_F_464215993_LWZKZ52fQKt4YDQ43b50koqZgn9WxHzA.jpg">
+          <img href = "#" src ="anish.jpeg" height="200px" width="200px">
         </div>
         <div class = content>
           <h3>Anish Jain</h3>
-          <p>E-MAIL:            snehshah1675@gmail.com               Contact no.:         9586895105</p>
+          <p>E-MAIL:            anishj469@gmail.com                  Contact no.:         9630929761</p>
         </div>
       </div>    
       <div class = card>
         <div class = image>
-          <img href = "#" src ="https://t4.ftcdn.net/jpg/01/69/75/05/360_F_169750527_k70FbAPVbBYHXkB2pvkePZhMYATFqvpQ.jpg">
+          <img href = "#" src ="kaustubh.jpeg">
         </div>
         <div class = content>
           <h3>Kaustubh Kale</h3>
-          <p>E-MAIL:            snehshah1675@gmail.com               Contact no.:         9586895105</p>
+          <p>E-MAIL:            kaustubhkale10324@gmail.com           Contact no.:         6263944597</p>
         </div>
       </div> 
       </div>
