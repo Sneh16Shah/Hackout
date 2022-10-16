@@ -29,15 +29,15 @@
                 <a class="nav-link px-4" href="index.php">Home</a>
             </li>
             <li class="nav-item navlink-border">
-                <a class="nav-link px-4" href="demo.php">Academics</a>
+                <a class="nav-link px-4" href="academic.php">Academics</a>
             </li>
             <li class="nav-item navlink-border">
                 <!-- <a class="nav-link px-4" href="jobs.php">Jobs</a> -->
                 <div class="dropdown">
                     <button class="dropbtn">Jobs</button>
                     <div class="dropdown-content">
-                        <a href="job.php">Post a job</a>
-                        <a href="chk.php">View jobs</a>
+                    <a href="job.php">Post a job</a>
+                            <a href="chk.php">View jobs</a>
                     </div>
                 </div>
             </li>

@@ -1,28 +1,170 @@
+* { 
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+    font-familly : "Poppins", sans-serif;
+  }
+
+  :root {
+    --primary: #ffb32c;
+    --primary-variant: #F17C1C;
+    --text: #000;
+    --text-variant: #fff;
+    --highlight: #8EE619;
+}
+  body {
+    /* display : flex; */
+    align-items : center;
+    justify-content : center;  
+    background-color: rgb(244, 244, 244);
+    min-height : 800px;
+  }
 .sgp{
-    background-color: #dcc8d8;
+  background: rgb(255,170,194);
+background: linear-gradient(90deg, rgba(255,170,194,1) 0%, rgba(203,171,249,1) 100%, rgba(165,231,245,1) 100%);
      /* display: inline-block; */
     /* align-items: center; */
     justify-content: center;
     border: 2px solid black;
-    /* height: 300px; */
-    /* width: 450px; */
+    height: auto;
+    width: 450px;
     /* float: left; */
-    /* display: flex; */
     /* position: relative; */
     margin: 10px;
-    margin-right: 400px;
-    margin-left: 400px;
+    /* margin-right: 400px;
+    margin-left: 400px; */
     border-radius: 20px; 
-    box-shadow: 200px 2 2 2 black;
     padding-left: 10px;
     padding-right: 10px;
+    box-shadow: 2px 2px 2px 2px black;
     /* text-align: center; */
     padding: 20px;
     padding-left: 50px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 span{
     color: blue;
     float: left;
     font-family: cursive;
-     
 }
+nav {
+    background: var(--text-variant);
+    color: var(--primary-variant);
+    z-index: 1;
+}
+
+.navbar {
+    /* padding: 0 0 4.5rem;  */
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #e6198e;
+}
+
+.navlink-border:hover {
+    border-bottom: 2px solid var(--primary-variant);
+}
+
+.nav-link {
+    font-size: 1.5 rem;
+    font-weight: normal;
+    color: var(--primary-variant);
+}
+
+.navbar-toggler i {
+    color: #e6198e;
+}
+
+.navbar-brand:hover,
+.nav-link:hover,
+.navbar-toggler i:hover {
+    color: #e6198e;
+}
+
+a.nav-link.px-4 {
+    margin-top: 20px;
+}
+
+.login-btn {
+    color: var(--text-variant);
+    background-image: linear-gradient(134deg, #e6198e, #e6198e, var(--primary-variant));
+    border-radius: 30px;
+    padding: 10px 45px;
+    margin-top: 5px;
+}
+
+.login-btn:hover {
+    color: var(--text-variant);
+    background-image: linear-gradient(134deg, var(--primary-variant), #e6198e, #e6198e);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    padding: 10px 45px;
+}
+
+.btn1{
+    margin: 5px;
+  position: absolute;
+  color: whitesmoke;
+  left: 90%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 2px 2px black;
+}
+.btn{
+    margin-top: 5px;
+  position: absolute;
+  color: whitesmoke;
+  left: 92%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.dropbtn {
+    background-image: linear-gradient(134deg, #e6198e, #e6198e, var(--primary-variant));
+    border-radius: 20px;
+    margin-top: 5px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-image: linear-gradient(134deg, #e6198e, #e6198e, var(--primary-variant));
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}

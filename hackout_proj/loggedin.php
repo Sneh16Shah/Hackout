@@ -12,7 +12,7 @@
     <!-- aos css -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     <!-- custom stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 
     <!-- Font awesome -->
     <!-- <script src="https://kit.fontawesome.com/9b54928ef1.js" crossorigin="anonymous"></script> -->
@@ -45,23 +45,23 @@
                     <a class="nav-link px-4" href="index.php">Home</a>
                 </li>
                 <li class="nav-item navlink-border">
-                    <a class="nav-link px-4" href="about.php">Abouts</a>
+                    <a class="nav-link px-4" href="academic.php">Academics</a>
                 </li>
                 <li class="nav-item navlink-border">
-                    <a class="nav-link px-4" href="demo.php">Academics</a>
-                </li>
-                <li class="nav-item navlink-border">
-                    <!-- <a class="nav-link px-4" href="jobs.html">Jobs</a> -->
+                    <!-- <a class="nav-link px-4" href="jobs.php">Jobs</a> -->
                     <div class="dropdown">
                         <button class="dropbtn">Jobs</button>
                         <div class="dropdown-content">
-                          <a href="forms.php">Post a job</a>
-                          <a href="jobs.php">View jobs</a>
+                        <a href="job.php">Post a job</a>
+                            <a href="chk.php">View jobs</a>
                         </div>
-                      </div>
+                    </div>
+                </li>
+                <li class="nav-item navlink-border">
+                    <a class="nav-link px-4" href="about.php">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4" href="forms.php"><button class="btn login-btn">Login</button></a>
+                    <a class="nav-link px-4" href="login.php"><button class="btn login-btn">Login</button></a>
                 </li>
             </ul>
         </div>
@@ -85,6 +85,7 @@
     $qry="select* from job";
     $arr=mysqli_query($connection,$qry);
     echo "<br>";
+    echo '<div class="main">';
     while($row=mysqli_fetch_array($arr))
     {   
         echo '<div class="sgp">';
@@ -120,6 +121,8 @@
         echo "</div>";
         // echo "<br>"; 
     }
+    echo "</div>";
+
 ?>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>

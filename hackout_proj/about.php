@@ -14,7 +14,7 @@
 <body>
 
   <nav id="go-to-top" class="navbar navbar-expand-lg selectDisable">
-    <a class="navbar-brand" href="index.html">
+    <a class="navbar-brand" href="index.php">
         CollegeBuddy
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -34,8 +34,8 @@
                 <div class="dropdown">
                     <button class="dropbtn">Jobs</button>
                     <div class="dropdown-content">
-                        <a href="job.php">Post a job</a>
-                        <a href="chk.php">View jobs</a>
+                    <a href="job.php">Post a job</a>
+                            <a href="chk.php">View jobs</a>
                     </div>
                 </div>
             </li>

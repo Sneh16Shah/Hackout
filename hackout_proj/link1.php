@@ -30,7 +30,7 @@
 
 <body>
     <nav id="go-to-top" class="navbar navbar-expand-lg selectDisable">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.php">
             CollegeBuddy
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -46,11 +46,11 @@
                     <a class="nav-link px-4" href="academic.php">Academics</a>
                 </li>
                 <li class="nav-item navlink-border">
-                    <!-- <a class="nav-link px-4" href="jobs.html">Jobs</a> -->
+                    <!-- <a class="nav-link px-4" href="jobs.php">Jobs</a> -->
                     <div class="dropdown">
                         <button class="dropbtn">Jobs</button>
                         <div class="dropdown-content">
-                            <a href="job.php">Post a job</a>
+                        <a href="job.php">Post a job</a>
                             <a href="chk.php">View jobs</a>
                         </div>
                     </div>

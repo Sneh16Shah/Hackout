@@ -47,7 +47,7 @@
                     <div class="dropdown">
                         <button class="dropbtn">Jobs</button>
                         <div class="dropdown-content">
-                            <a href="job.php">Post a job</a>
+                        <a href="job.php">Post a job</a>
                             <a href="chk.php">View jobs</a>
                         </div>
                     </div>
